@@ -1,27 +1,64 @@
-# StudentRecordsFrontEnd
+# Student Records Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+This project is the front end component of a full stack application designed to manage student records. The front end is developed using Angular, providing a user-friendly interface to interact with the backend API for performing CRUD operations on student data.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- View a list of all students
+- View details of a specific student
+- Create new student records
+- Update existing student details
+- Delete student records
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Angular 17 
+- TypeScript
+- HTML/CSS 
+- RESTful API integration
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Configure the API base URL in the environment file (`src/environments/environment.ts`) to point to your backend API (e.g., `apiBaseUrl: 'http://localhost:8080/api'`).
+5. Run the development server using `ng serve` or `npm start`.
+6. Open your browser and navigate to `http://localhost:4200` to view the application.
+
+
+
+## Project Structure
+
+The project structure follows Angular's recommended architecture:
+
+- `src/app/components`: Contains reusable UI components.
+- `src/app/services`: Includes services for API communication.
+- `src/app/models`: Defines TypeScript models for data structures.
+- `src/app/pages`: Defines components/pages for different views (e.g., student list, student details, etc.).
+- `src/assets`: Stores static assets such as images, stylesheets, etc.
+
+
+
+### Links
+* User Stories - https://docs.google.com/document/d/14Uo-IgHvJab1L4-r9mHf7T20wOMQ834O4_MWG7Bykiw/edit?usp=sharing 
+
+* HTTP requests/endpoints spreadsheet - https://docs.google.com/spreadsheets/d/18kHZpWV__r9cRTKkT8xmkjtEG8_sPdnL_pWVzjmNHp8/edit?usp=sharing 
+
+
+
+## Author
+
+:woman_technologist: Erica Ayala
+
+- [LinkedIn](https://www.linkedin.com/in/ayalavirtual)
+- [GitHub](https://www.github.com/AyalaVirtual) 
+
+
+
