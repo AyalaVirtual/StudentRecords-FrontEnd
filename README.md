@@ -1,16 +1,13 @@
-# Student Records Frontend
-
-This project is the front end component of a full stack application designed to manage student records. The front end is developed using Angular, providing a user-friendly interface to interact with the backend API for performing CRUD operations on student data.
-
-
+This project aims to create a user-friendly and intuitive student website interface that interacts with the backend API to perform CRUD operations on student records. The website is designed to cater initially to administrators, providing appropriate functionality and views for this role.
 
 ## Features
 
-- View a list of all students
-- View details of a specific student
-- Create new student records
-- Update existing student details
-- Delete student records
+- Full CRUD functionality for managing student records.
+- Clean and organized dashboard interface for administrators.
+- Create new student records with all relevant information fields.
+- View a list of all students with options to edit or delete each record.
+- Display student details in an editable form for updating.
+- Ensure administrators have access to all fields when creating or editing student records.
 
 
 
@@ -18,8 +15,9 @@ This project is the front end component of a full stack application designed to 
 
 - Angular 17 
 - TypeScript
-- HTML/CSS 
-- RESTful API integration
+- HTML/CSS
+- Bootstrap or Material Design for UI components
+- RESTful API integration with backend (Java, Spring Boot, Spring Data JPA)
 
 
 
