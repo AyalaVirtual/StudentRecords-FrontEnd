@@ -1,4 +1,10 @@
+# Student Records Front End 
+
 This project is the front end component of a full stack application designed to manage student records. The front end is developed using Angular, providing a user-friendly and intuitive student website interface that interacts with the backend API to perform CRUD operations on student records. 
+
+
+
+<img src="src/assets/images/StudentRecordsPreview.png" alt="Student Records Manager Preview">
 
 
 
@@ -30,11 +36,7 @@ This project is the front end component of a full stack application designed to 
 3. Install dependencies using `npm install`.
 4. Configure the API base URL in the environment file (`src/environments/environment.ts`) to point to your backend API (e.g., `apiBaseUrl: 'http://localhost:8080/api'`).
 5. Run the development server using `ng serve` or `npm start`.
-6. Open your browser and navigate to `http://localhost:4200` to view the application.
-
-
-
-<img src="./images/StudentRecordsPreview.png" alt="Student Records Manager Preview">
+6. Open your browser and navigate to `http://localhost:4200` to view the application. 
 
 
 
